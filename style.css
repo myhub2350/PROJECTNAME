@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+body{
+	font-family:'pixelify' sans-serif;
+	margin: 0;
+}
+main{
+	max-width: 800px;
+	margin: 20px auto;
+}
+nav{
+	background: rgb(209,65,91);
+background: linear-gradient(90deg, rgba(209,65,91,1) 100%, rgba(3,36,252,0.6627906976744187) 100%);
+	border-top:2px darksalmon solid;
+	border-bottom: 2px darksalmon solid;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+	padding-right: 10px;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: #10CFCF;
+}
+nav a:visited{
+	color:#8C9E18;
+}
+nav a:hover{
+	color:#119822;
+}
+nav a:active{
+	color:black;
+}
+.logo{
+	max-width: 275px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	display: block;
+}
+.my_pic{
+	float: right;
+	max-width: 40%;
+	height: auto;
+	margin-left: 30px;
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+#home-hero{
+background-color: darksalmon;
+	background-image: url(images/godafoss.jpg);
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#home-hero h1{
+	font-family:'pixelify' sans-serif;
+	text-align: center;
+	color: #473198;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px black;
+	margin: 0;
+	padding: 10px;
+}
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size:2em;
+	}
+}
+@media only screen and (max-width: 768){
+	hi{
+		font-size: 1.5em;
+	}
+}
+table{
+  border-collapse:collapse;
+  margin:0 auto;
+  border:5px solid #000000
+}
+tr:nth-child(even){
+  background-color: rgb(3,252,183);
+}
+th{
+  background-color:#93278E;
+  color:white;
+  padding: 10px;
+  border-bottom: 5px solid #000000
+}
+td{
+  border: 1px solid #dddddd:
+  padding: 10px;
+}
+label{
+	float:left;
+	width: 8em;
+	padding-right: 1em;	
+}
+input{
+margin-bottom: 1em;
+	display: block;	
+}
+textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+input[type=submit]{
+	background-color: rgb(39,202,111) ;
+}
+footer{
+	text-align: center;
+	border-top: 1px;
+	padding: 10px;
+background: rgb(209,65,91);
+background: linear-gradient(90deg, rgba(209,65,91,1) 100%, rgba(3,36,252,0.6627906976744187) 100%);
+}
+form{
+	max-width: 400px;
+	margin: 0 auto;
+}
+.video-container{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.video-container::after{
+	padding-top: 56.25%;
+	display: block;
+	content: '';
+}
+.video-container iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.home-photo{
+	float: right;
+	max-width: 50%;
+	height: auto;
+	margin: 50px 0 10px 20px;
+}
+.fa{
+	color: #ffffcc;
+}
